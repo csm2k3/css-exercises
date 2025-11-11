@@ -1,1 +1,25 @@
-/* Add CSS Styling */
+* {
+    margin: 0;
+}
+
+
+.button-main {
+    background-color: #000;
+    color: #fff;
+}
+
+.button-secondary {
+    background-color: rgb(255, 255, 0);
+}
+
+.button-main, .button-secondary {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
