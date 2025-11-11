@@ -1,1 +1,19 @@
-/* Add CSS Styling */
+.one, .cooler, .yet-another_class {
+    background-color: #ffa7a7;
+    font-family: Verdana, 'Dejavu Sans', sans-serif;
+}
+
+#two {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#other-id {
+    background-color: #80ff80;
+    font-size: 24px;
+    font-weight: bold;
+}

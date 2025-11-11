@@ -1,0 +1,27 @@
+main {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    height: 100%;
+}
+
+.title {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left, .right, .center {
+    height: 30vh;
+    border: 1px solid black;
+    margin: 10px;
+    flex: auto;
+}
+
